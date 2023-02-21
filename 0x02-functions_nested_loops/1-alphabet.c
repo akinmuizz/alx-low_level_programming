@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * main - check code
- *
- * Return: always 0
+ * print_alphabet - to ptint all alphabets in lowercase
  */
 
 void print_alphabet(void)
@@ -14,5 +12,7 @@ void print_alphabet(void)
 		_putchar(letter);
 
 	_putchar('\n');
+
+	return (0);
 
 }
