@@ -6,9 +6,9 @@
  * Return: a string
  */
 
-
 char *leet(char *x)
 {
+
 	int a = 0;
 
 	b = 0;
