@@ -4,7 +4,7 @@ int is_divisble(int num, int div);
 int is_prime_number(int n);
 
 /**
- * is_divisible - checks if a nmuber is divisible
+ * is_divisible - checks if a number is divisible
  * @num: the number to be checked
  * @div: the divisor
  *
