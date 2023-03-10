@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_strncat(char *dest, char *src, int n)
 {
-	return (c >= 'a' && c <= 'z');
+	return strncat(dest, src, n);
 }

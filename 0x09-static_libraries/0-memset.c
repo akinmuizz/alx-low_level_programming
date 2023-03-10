@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (c >= 'a' && c <= 'z');
+	return memset(s, b, n);
 }

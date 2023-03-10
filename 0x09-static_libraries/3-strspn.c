@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+unsigned int _strspn(char *s, char *accept)
 {
-	return (c >= 'a' && c <= 'z');
+	return strspn(s, accept);
 }

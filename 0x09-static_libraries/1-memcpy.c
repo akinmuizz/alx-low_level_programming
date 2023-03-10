@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (c >= 'a' && c <= 'z');
+	return memcpy(dest, src, n);
 }

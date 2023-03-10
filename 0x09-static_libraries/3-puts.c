@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+void _puts(char *s)
 {
-	return (c >= 'a' && c <= 'z');
+	puts(s);
 }

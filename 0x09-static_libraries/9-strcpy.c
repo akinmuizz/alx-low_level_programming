@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_strcpy(char *dest, char *src)
 {
-	return (c >= 'a' && c <= 'z');
+	return strcpy(dest, src);
 }

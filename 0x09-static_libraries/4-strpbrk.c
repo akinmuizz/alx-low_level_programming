@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_strpbrk(char *s, char *accept)
 {
-	return (c >= 'a' && c <= 'z');
+	return strpbrk(s, accept);
 }

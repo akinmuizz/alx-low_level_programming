@@ -4,7 +4,7 @@
 #include <ctype.h>
 #include <string.h>
 
-int _islower(int c)
+char *_strstr(char *haystack, char *needle)
 {
-	return (c >= 'a' && c <= 'z');
+	return strstr(haystack, needle);
 }
