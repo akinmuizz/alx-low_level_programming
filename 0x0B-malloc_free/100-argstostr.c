@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * argstorstr - prints args
+ * argstostr - prints args
  * @ac: takes in width of grid
  * @av: height of grid
  * Return: the args one line at a time
  */
 
-char *argstorstr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *str;
 	int count = 0, a = 0, b = 0, c = 0;
