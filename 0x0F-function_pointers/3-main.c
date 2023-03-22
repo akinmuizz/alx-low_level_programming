@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 {
 	int arg1, arg2, result;
 
-	char 0;
+	char o;
 
 	int (*func)(int, int);
 
