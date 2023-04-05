@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * pop_listint -Deletes head notes, amazing
