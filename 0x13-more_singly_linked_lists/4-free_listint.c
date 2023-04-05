@@ -7,7 +7,7 @@
 
 void free_listint(listint_t *head)
 {
-	listint *project;
+	listint_t *project;
 
 	while (head != NULL)
 	{
