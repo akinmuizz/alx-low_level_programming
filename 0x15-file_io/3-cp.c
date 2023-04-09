@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	while ((bytes_rd = read(fd_from, setbuffer, BUFF_SIZE)) > 0)
+	while ((bytes_rd = read(fd_from, buffer, BUFF_SIZE)) > 0)
 	{
 		bytes_wt = write(fd_to, buffer, bytes_rd);
 		if (bytes_wt != bytes_rd)
